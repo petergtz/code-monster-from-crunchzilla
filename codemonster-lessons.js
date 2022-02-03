@@ -20,7 +20,7 @@ var lessons =
   {
     message: {
       en: "I'm Code Monster! (click on my words to see what's next)",
-      de: "Ich bin das Code Monster! (Klick auf meine Wörter was danach kommt)",
+      de: "Ich bin das Code Monster! (Klick auf meine Wörter, um zu sehen, was als nächstes kommt)",
       jp: "コードモンスターだ！&nbsp;ここの文章をクリックして次に進んでね！"
     },
     code: "c.fillRect(20, 20, 50, 75);\n",
@@ -49,7 +49,7 @@ var lessons =
   {
     message: {
       en: "You can use<span class=tutor-code>fillRect()</span>to draw a box. See the number 50?  Can you change that to 150?",
-      de: "Du kannst mit<span class=tutor-code>fillRect()</span>ein Rechteck zeichnen. Siehst Du die Nummer 50? Kannst Du die in 150 ändern?",
+      de: "Du kannst mit<span class=tutor-code>fillRect()</span>ein Rechteck zeichnen. Siehst Du die Zahl 50? Kannst Du sie in 150 ändern?",
       jp: "<span class=tutor-code>fillRect()</span>を使って四角形をかけるよ。50という数字が見えるかな？　それを半角数字で150にかえてみよう！&nbsp;<br><br><i class=jp>★プログラミングのおやくそく★<br>数字やアルファベットはかならず<strong>半角</strong>で入力してね！</i>"
     },
     code: "c.fillRect(20, 20, 50, 75);\n"
@@ -57,7 +57,7 @@ var lessons =
   {
     message: {
       en: "That made the box wider. What do you think the other numbers do? Try changing them.",
-      de: "Das hat das Rechteck weiter gemacht. Was glaubst du machen die anderen Zahlen? Versuche sie zu ändern.",
+      de: "Das hat das Rechteck breiter gemacht. Was denkst du, machen die anderen Zahlen? Versuche sie zu ändern.",
       jp: "四角形が大きくなったね。他の数字にするとどうなると思う？&nbsp;いろいろかえてみよう！",
     },
     lessonSection: {
@@ -69,21 +69,21 @@ var lessons =
   {
     message: {
       en: "Did you figure it out?  The numbers are how far from the left side to draw the box, how far from the top, how wide to draw the box, and how tall.",
-      de: "Hast du verstanden was sie machen? Die Zahlen sagen wie weit von links das Rechteck zu zeichnen ist, wie weit von oben, wie weit das Rechteck ist und wie hoch es gezeichnet werden soll.",
+      de: "Hast du es heraus gefunden? Die Zahlen geben an, wie weit von der linken Seite das Rechteck gezeichnet werden soll, wie weit von oben, wie breit das Rechteck gezeichnet werden soll und wie hoch.",
       jp: "分かったかな？&nbsp;これらの数字は、左はし、または上からどのくらいはなれた場所に四角形をかくか、四角形のはば、高さはどのくらいにするかを表しているんだ。"
     }
   },
   {
     message: {
       en: "Try changing all the numbers!  Play with it!",
-      de: "Ändere alle Zahlen! Spiel mit ihnen!",
+      de: "Versuche, alle Zahlen zu ändern! Spiel damit!",
       jp: "全ての数字をかえてみよう！&nbsp;いろいろかえて遊んでみよう！"
     }
   },
   {
     message: {
       en: "Two boxes. Can you change the numbers to make them bigger?",
-      de: "Zwei Rechtecke. Kannst du sie grösser machen?",
+      de: "Zwei Rechtecke. Kannst du die Zahlen ändern, um sie größer zu machen?",
       jp: "2つの四角形があるね。数字をかえてこれらを大きくしてみよう！"
     },
     code: "c.fillRect(20, 20, 50, 75);\nc.fillRect(100, 100, 60, 80);\n"
@@ -91,14 +91,14 @@ var lessons =
   {
     message: {
       en: "Can you change the numbers to move them around?",
-      de: "Kannst du die Zahlen ändern um sie herumzubewegen?",
+      de: "Kannst du die Zahlen ändern, um sie zu verschieben?",
       jp: "数字をかえて四角形を動かしてみよう。"
     }
   },
   {
     message: {
       en: "Can you change the numbers so that one covers the other?",
-      de: "Kannst du die Zahlen ändern damit eins mit dem anderen überlappt?",
+      de: "Kannst du die Zahlen so ändern, dass eines das andere überdeckt?",
       jp: "かた方をかくすように数字をかえてみよう。"
     }
   },
@@ -113,7 +113,7 @@ var lessons =
   {
     message: {
       en: "A square has the same width and height. This box has the same width and height, both are 80.",
-      de: "Ein Quadrat hat die gleiche Weite und Höhe. Dieses Rechteck hat die gleiche Weite und Höhe: 80.",
+      de: "Ein Quadrat hat die gleiche Breite und Höhe. Dieses Rechteck hat die gleiche Breite und Höhe: 80.",
       jp: "正方形はたてと横が同じ長さの四角形だよ。これはたてと横が両方とも80で同じ長さだよ。"
     },
     code: "c.fillRect(20, 20, 80, 80);\n"
@@ -156,14 +156,14 @@ var lessons =
   {
     message: {
       en: "And look!  Wider and taller box, both at the same time!",
-      de: "Schau! Das Quadrat ist jetzt weiter und höher! Gleichzeitig!",
+      de: "Schau! Das Quadrat ist jetzt breiter und höher! Gleichzeitig!",
       jp: "見て！&nbsp;四角形のたてと横の長さを同時にかえられるんだ!"
     }
   },
   {
     message: {
       en: "Can you change the other numbers to move the box around?",
-      de: "Kannst du die anderen Zahlen ändern um das Quadrat herumzubewegen?",
+      de: "Kannst du die anderen Zahlen ändern, um das Quadrat zu verschieben?",
       jp: "他の数字もかえて四角形を動かしてみよう。"
     }
   },
@@ -192,14 +192,14 @@ var lessons =
   {
     message: {
       en: "Both boxes have the same size.  That's a neat trick.",
-      de: "Beide sind gleichgross. Das ist schlau.",
+      de: "Beide sind gleich groß. Das ist ein geschickter Trick.",
       jp: "四角形は両方とも同じ大きさにしてね。ちょっと考えれば、かんたんだね！"
     }
   },
   {
     message: {
       en: "You can change what<span class=tutor-code>size</span>is equal to.  That will grow or shrink both boxes at once! Try changing 80 to 180!",
-      de: "Du kannst<span class=tutor-code>size</span>ändern zu was du magst. Beide werden gleichzeitig grösser oder kleiner! Probiere die 80 in 180 zu ändern!",
+      de: "Du kannst<span class=tutor-code>size</span>ändern zu was du magst. Beide werden gleichzeitig größer oder kleiner! Probiere die 80 in 180 zu ändern!",
       jp: "<span class=tutor-code>size</span>の数字をかえればいいよね。そうすると、いちどに両方の四角形の大きさを大きくしたり、小さくしたりできるからね！&nbsp;<br>80から180にしてみよう！"
     },
     youGotItCheck: "180"
@@ -207,7 +207,7 @@ var lessons =
   {
     message: {
       en: "Can you move each of the boxes around by changing some of the numbers?",
-      de: "Kannst du die Quadrate herumbewegen indem du einige Zahlen änderst?",
+      de: "Kannst du die Quadrate verschieben indem du einige Zahlen änderst?",
       jp: "いくつか数字をかえて四角形を動かしてみよう。"
     }
   },
@@ -257,7 +257,7 @@ var lessons =
   {
     message: {
       en: "How about two pink boxes?",
-      de: "Wie wäre es mit rosa (pink) Quadraten?",
+      de: "Wie wäre es mit zwei rosa (pink) Quadraten?",
       jp: "2つのピンクの四角形はどう？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"pink\";\nc.fillRect(20, 20, size, size);\nc.fillRect(90, 90, size, size);\n"
@@ -273,7 +273,7 @@ var lessons =
   {
     message: {
       en: "Can you make the silver box gold instead?  And the pink one blue instead?",
-      de: "Kannst du das silberne Quadrat gold (gold) machen? Und die rosane blau (blue)?",
+      de: "Kannst du das silberne Quadrat gold (gold) machen? Und das rosane blau (blue)?",
       jp: "銀の四角形を、銀ではなく金(gold)にできるかな？&nbsp;&nbsp;で、ピンクを青(blue)にかえられる？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"pink\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"silver\";\nc.fillRect(90, 90, size, size);\n"
@@ -281,7 +281,7 @@ var lessons =
   {
     message: {
       en: "Here are two boxes that are the same color again.  Now can you make the two boxes be different colors?",
-      de: "Hier sind 2 Quadrate mit der gleichen Farbe. Kannst du eine von beiden eine andere Farbe geben?",
+      de: "Hier sind zwei Quadrate wieder mit der gleichen Farbe. Kannst du einem von beiden eine andere Farbe geben?",
       jp: "また2つの四角形が同じ色になったね。今度は、2つの四角形をちがう色にできるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"green\";\nc.fillRect(20, 20, size, size);\n\nc.fillRect(90, 90, size, size);\n"
@@ -305,7 +305,7 @@ var lessons =
   {
     message: {
       en: "Wha... This does the same thing!  What could<span class=tutor-code>rgb()</span>be?",
-      de: "Huch...das macht das gleiche! Was mag wohl<span class=tutor-code>rgb()</span>sein?",
+      de: "Huch... das macht das gleiche! Was mag wohl<span class=tutor-code>rgb()</span>sein?",
       jp: "おや、これでも同じことができているよ！&nbsp;<span class=tutor-code>rgb()</span>って何なのかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(255, 0, 0)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"rgb(0, 255, 0)\";\nc.fillRect(80, 80, size, size);\nc.fillStyle =\"rgb(0, 0, 255)\";\nc.fillRect(140, 140, size, size);\n"
@@ -313,7 +313,7 @@ var lessons =
   {
     message: {
       en: "Try changing any of the zeroes to 200 or so.  And try changing any of the 255 to 0. What do the numbers seem to do?",
-      de: "Versuche die Null in zum Beispiel 200 zu ändern. Und die 255 in 0. Was scheinen die Zahlen zu machen?",
+      de: "Versuche eine der Nullen auf 200 oder so zu ändern. Und versuche eine der 255 auf 0 zu ändern. Was scheinen die Zahlen zu machen?",
       jp: "0のうちのどれかを200とかにしてみよう。そして255のどれかを0にしてみよう。この数字は何を意味しているのかな?"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(255, 0, 0)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"rgb(0, 255, 0)\";\nc.fillRect(80, 80, size, size);\nc.fillStyle =\"rgb(0, 0, 255)\";\nc.fillRect(140, 140, size, size);\n"
@@ -321,7 +321,7 @@ var lessons =
   {
     message: {
       en: "Did you figure it out? <span class=tutor-code>rgb()</span>refers to red, green, and blue.  The numbers go from 0 to 255. So,<span class=tutor-code>rgb(0, 255, 0)</span>means no red or blue, but all the green you got!",
-      de: "Hast du es herausgefunden?<span class=tutor-code>rgb()</span>kommt von red, green, blue (rot, grün, blau). Die Zahlen gehen von 0 bis 255.<span class=tutor-code>rgb(0, 255, 0)</span>heisst kein rot, viel grün, kein blau.",
+      de: "Hast du es herausgefunden?<span class=tutor-code>rgb()</span>kommt von red, green, blue (rot, grün, blau). Die Zahlen gehen von 0 bis 255.<span class=tutor-code>rgb(0, 255, 0)</span>heisst kein rot, kein blau, aber so viel grün wie geht.",
       jp: "分かったかな？&nbsp;<span class=tutor-code>rgb()</span>とは、red(赤)、green(緑)、blue(青)を意味しているんだ。数字は0から255まで。だから、<span class=tutor-code>rgb(0, 255, 0)</span>は赤でもなく、青でもなく、緑っていうことになるんだ！"
     }
   },
@@ -335,7 +335,7 @@ var lessons =
   {
     message: {
       en: "Here is a fun game.  Can you make these two boxes the same color?",
-      de: "Hier kommt ein spassiges Spiel: Kannst du beide Quadrate in der gleichen Farbe einfärben?",
+      de: "Hier kommt ein lustiges Spiel: Kannst du beide Quadrate in der gleichen Farbe einfärben?",
       jp: "楽しいゲームをしよう。これらの2つの四角形を同じ色にできるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(0, 0, 0)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"red\";\nc.fillRect(80, 80, size, size);\n",
@@ -349,7 +349,7 @@ var lessons =
   {
     message: {
       en: "Can you make these both blue?",
-      de: "Kannst du die Quadrate blau machen?",
+      de: "Kannst du beide Quadrate blau machen?",
       jp: "これら両方の四角形を青色にできるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(0, 0, 0)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"blue\";\nc.fillRect(80, 80, size, size);\n",
@@ -358,7 +358,7 @@ var lessons =
   {
     message: {
       en: "Can you figure out what the<span class=tutor-code>rgb()</span>numbers should be to make these both yellow?",
-      de: "Welche Zahlen ergeben gelb?",
+      de: "Kannst Du herausfinden, wie die <span class=tutor-code>rgb()</span>-Zahlen lauten müssen, damit diese beiden gelb werden?",
       jp: "これら両方の四角形を黄色にするには、<span class=tutor-code>rgb()</span>の数字をいくつにすればよいかわかるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(255, 0, 0)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"yellow\";\nc.fillRect(80, 80, size, size);\n"
@@ -366,7 +366,7 @@ var lessons =
   {
     message: {
       en: "Can you figure out what the<span class=tutor-code>rgb()</span>numbers should be to make these both teal?",
-      de: "Welche Zahlen ergeben blaugrün?",
+      de: "Kannst Du herausfinden, wie die <span class=tutor-code>rgb()</span>-Zahlen lauten müssen, damit diese beiden türkis werden?",
       jp: "これら両方の四角形を青緑色(teal)にするには、<span class=tutor-code>rgb()</span>の数字をいくつにすればよいかわかるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(0, 0, 128)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"teal\";\nc.fillRect(80, 80, size, size);\n"
@@ -382,7 +382,7 @@ var lessons =
   {
     message: {
       en: "Here it is.  Whew, that's a hard one!  How close did you get?",
-      de: "Hier ist die Lösung. Weia, das war schwer! Wie nah warst du dran?",
+      de: "Hier ist die Lösung. Uff, das war schwer! Wie nah warst du dran?",
       jp: "できたよ。これはむずかしいね！&nbsp;どのくらい近い色ができたかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgb(220, 20, 60)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"crimson\";\nc.fillRect(80, 80, size, size);\n"
@@ -397,7 +397,7 @@ var lessons =
   {
     message: {
       en: "<span class=tutor-code>rgba()</span>is a crazy version of<span class=tutor-code>rgb()</span>. See what this does?  It's got one more number at the end that's 0.5.  What is that last number doing? Try changing the 0.5 to 0.1.  Or to 0.8.  What does it do?",
-      de: "<span class=tutor-code>rgba()</span>ist eine besondere Version von<span class=tutor-code>rgb()</span>. Siehst Du den Unterschied? Sie hat eine Zahl mehr am Ende und die ist 0.5. Was macht die letzte Zahl? Versuch die 0.5 durch 0.1 or 0.8 zu ersetzen. Was passiert?",
+      de: "<span class=tutor-code>rgba()</span>ist eine verrückte Version von<span class=tutor-code>rgb()</span>. Siehst Du den Unterschied? Sie hat eine Zahl mehr am Ende und die ist 0.5. Was macht die letzte Zahl? Versuch die 0.5 durch 0.1 or 0.8 zu ersetzen. Was passiert?",
       jp: "<span class=tutor-code>rgba()</span>は<span class=tutor-code>rgb()</span>のもっとすごいバージョンだよ。何ができるか見てみよう。<span class=tutor-code>rgb()</span>にはさいごにもう1つ数字が追加されていて、0.5ってなっているね。このさいごの数字は何をやっているんだろう？&nbsp;0.5を0.1にかえてみよう。または0.8にかえてみよう。どうなるかな？"
     },
     code: "var size = 80;\n\nc.fillStyle =\"rgba(255, 0, 0, 0.5)\";\nc.fillRect(20, 20, size, size);\nc.fillStyle =\"rgba(0, 0, 255, 0.5)\";\nc.fillRect(80, 80, size, size);\n",
@@ -3013,8 +3013,8 @@ var lessons =
 // To keep JSHint from complaining about variables and functions in
 // the hidden code, list them here.  The boolean is whether they can
 // be overridden by user code.
-var predefForJSHint = {c: true, 
-             rgb: true, 
+var predefForJSHint = {c: true,
+             rgb: true,
              rgba: true,
             };
 
